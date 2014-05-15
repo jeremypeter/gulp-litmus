@@ -1,0 +1,31 @@
+{
+  "name": "gulp-litmus",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "jeremypeter/gulp-litmus",
+  "author": {
+    "name": "Jeremy Peter",
+    "email": "jeremy.peter@meltmedia.com",
+    "url": "https://github.com/jeremypeter"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "~2.2.14",
+    "event-stream": "~3.1.5"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
