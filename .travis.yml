@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.10'
+
+deploy:
+  provider: npm
+  email: jeremywpeter@gmail.com
+  api_key:
+    secure: g5lZXCD8aVV2QKfg1Z+WCgiCmUaaswUCshkhfyCUAiHmM/oGhqpGB8uuvVifC3DtHGtJaki/TX5lJEF57fAfY08sLakHfa6fodMbKI79Jg9u/RmgKj0U3hKEDVuId0IY4va9+aw/aCYrbOQAvONfeigwtLd592L5UZdui6eKcQU=
+  on:
+    tags: true
+    repo: jeremypeter/gulp-litmus
