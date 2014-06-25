@@ -1,6 +1,6 @@
 {
   "name": "gulp-litmus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "license": "MIT",
   "repository": "jeremypeter/gulp-litmus",
@@ -19,7 +19,7 @@
     "index.js"
   ],
   "keywords": [
-    "gulpplugin,litmus,testing"
+    "gulpplugin, litmus, testing"
   ],
   "dependencies": {
     "gulp-util": "~2.2.14",
