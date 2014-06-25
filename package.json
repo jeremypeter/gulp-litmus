@@ -19,7 +19,10 @@
     "index.js"
   ],
   "keywords": [
-    "gulpplugin, litmus, testing"
+    "gulpplugin",
+    "litmus",
+    "email",
+    "testing"
   ],
   "dependencies": {
     "gulp-util": "~2.2.14",
