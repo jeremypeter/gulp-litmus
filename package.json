@@ -16,7 +16,8 @@
     "test": "mocha"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "lib/litmus.js"
   ],
   "keywords": [
     "gulpplugin",
