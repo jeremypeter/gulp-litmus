@@ -4,7 +4,7 @@
 ## Install
 
 ```bash
-$ npm install --save-dev gulp-litmus
+$ npm install gulp-litmus
 ```
 
 
