@@ -1,5 +1,5 @@
 'use strict';
-var gutil = require('gulp-util');
+var PluginError = require('plugin-error');
 var es = require('event-stream');
 var Litmus = require('./lib/litmus');
 var cheerio = require('cheerio');
@@ -9,7 +9,7 @@ var dateFormat = require('dateformat');
 function sendLitmus(options){
 
 	if (!options) {
-		throw new gutil.PluginError('gulp-litmus', 'options required');
+		throw new PluginError('gulp-litmus', 'options required');
 	}
 
 	var now = new Date();
@@ -24,7 +24,7 @@ function sendLitmus(options){
 		}
 
 		if (file.isStream()) {
-			this.emit('error', new gutil.PluginError('gulp-litmus', 'Streaming not supported'));
+			this.emit('error', new PluginError('gulp-litmus', 'Streaming not supported'));
 			return cb();
 		}
 

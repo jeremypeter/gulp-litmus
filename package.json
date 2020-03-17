@@ -26,7 +26,7 @@
     "testing"
   ],
   "dependencies": {
-    "gulp-util": "~2.2.14",
+    "plugin-error": "~1.0.1",
     "event-stream": "~3.1.5",
     "litmus-api": "~0.3.2",
     "dateformat": "~1.0.8-1.2.3",
